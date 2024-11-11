@@ -5,10 +5,10 @@ class Animal(ABC):
         pass
 class Dog(Animal):
     def speak(self):
-        return "Woof!"
+        return "snake!"
 class Cat(Animal):
     def speak(self):
-        return "Meow!"
+        return "kalesh!"
 dog = Dog()
 cat = Cat()
 print(dog.speak())
